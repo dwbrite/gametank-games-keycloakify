@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'Upheaval';
+  src: url('./assets/fonts/upheaval/upheavtt.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Daydream';
+  src: url('./assets/fonts/daydream_3/Daydream.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mario64';
+  src: url('./assets/fonts/mario64/Mario64.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('./assets/fonts/press_start_2p/PressStart2P.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'pock';
+  src: url('./assets/fonts/pkmn_frlg_recreated/frlg.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: '04b';
+  src: url('./assets/fonts/04b_03/04B_03__.TTF') format('truetype');
+}
+
+#kc-header-wrapper {
+  /* NOTE: We would use `body {` if we'd like the font to be applied to everything. */
+  font-family: "Daydream";
+  font-size: 16pt !important;
+  color: antiquewhite;
+  text-transform: unset;
+}
+
+#kc-info-wrapper {
+  font-size: 12px;
+}
+:root {
+  --pf-global--FontSize--sm: 6pt;
+}
+
+#kc-page-title {
+  font-family: "PressStart2P";
+  font-size: 12pt;
+}
+
+.login-pf-page .login-pf-signup {
+  text-align: unset;
+  font-size: 12px;
+  font-family: "Mario64", serif;
+}
+
+#kc-login {
+  font-size: 6pt;
+  color: antiquewhite;
+  background-color: #A45A52;
+}
+
+.checkbox {
+  line-height: 17pt;
+}
+
+.kcFormOptionsWrapperClass {
+  font-family: Mario64;
+  font-size: 12px;
+}
+
+#kc-info-wrapper {
+  background-color: #0000;
+}
+
+.login-pf body {
+  background-image: url("./assets/code_long_transparent.png");
+  background-color: #2f1e2e;
+  background-size: unset;
+  background-position-x: 0;
+}
+
+.card-pf {
+  background-color: #fff0;
+  box-shadow: unset;
+  border-color: unset;
+  border-top: unset;
+}
+
+body {
+  font-size: 6pt;
+  font-family: "PressStart2P", serif;
+  color: antiquewhite;
+
+  letter-spacing: 0;               /* Prevent kerning adjustments */
+  image-rendering: pixelated;        /* Ensure crisp scaling for images */
+  font-smooth: never;
+  -webkit-font-smoothing : none;
+  text-rendering: geometricPrecision;
+  line-height: 2.5em;
+}
